@@ -1,0 +1,82 @@
+
+body {
+    font-family: 'Tangerine', cursive;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#app {
+    background-image: url("./assets/background1.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    min-width: 1000px;
+}
+
+#pound-sign{
+    font-size: 10vmin;
+    position: relative;
+    left: 10vmin;
+    
+}
+
+input {
+    border: none;
+    position: relative;
+    bottom: 0.2vmin;
+    left: 10vmin;
+    font-size: 8vmin;
+    width: 28vmin;
+    height: 8vmin;
+    font-family: 'Tangerine', cursive;
+    background: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#equalto {
+    position: relative;
+    left: 1vmin;
+    margin-top: 2vmin;
+    font-size: 5vmin;
+}
+
+#output {
+    display: flex;
+    justify-content: center;
+}
+
+.denom {
+    margin: 2vmin;
+}
+
+#calculator {
+    text-align: center;
+    font-size: 5vmin;
+    position: relative;
+    top: 20vh;
+}
+
+@keyframes onenter {
+    from {
+        background-image: url("./assets/background-lit.png")
+    }
+    to {
+        background-image: url("./assets/background1.png");
+    }
+  }
+
+  .enterpressed {
+    animation-name: onenter;
+    animation-duration: 3s;
+  }
