@@ -7,4 +7,4 @@ Open index.html in a browser to run the app, tested only in chrome.
 
 view javascript.old to see the JS before webpack.
 
-I created this project to practise using React and CSS. I used Adobe Illustrator to create the background images.
+I created this project to practise using React and CSS. I used Adobe Illustrator to compose the background images.
